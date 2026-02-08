@@ -1,0 +1,4 @@
+## How to use 
+
+public key will be on VM (where you want to login)
+private key will be on laptop/computer from where you are trying to login
