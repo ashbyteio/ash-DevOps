@@ -66,7 +66,7 @@ python3 app.py
 
 ![Flask on port :8000](./ash-web/images/using_flask_on_8000.jpg)
 
-#### Use Nginx as reverse proxy server (Production grade)
+### Use Nginx as reverse proxy server (Production grade)
 
 1. Add nginx package details in requirements.txt
 ```bash
@@ -101,7 +101,7 @@ server {
 sudo systemctl enable nginx
 sudo systemctl start nginx
 ```
-5. Access the site at `http:your-public-ip`
+5. Access the site at `http:your-public-ip` or `http:your-domain`
 
 ![Nginx without SSL:](./ash-web/images/using_nginx_without_ssl.jpg)
 
@@ -168,5 +168,6 @@ sudo certbot --nginx -d ashbyteio.xyz
 5. Follow the prompts to enter the email (optional) and agree to terms.
 6. Update Security group to allow HTTPS traffic on Port 443 from 0.0.0.0/0
 7. Verify secure site access: https://ashbyteio.xyz
+
 
 ![Nginx with SSL:](./ash-web/images/using_nginx_with_ssl.jpg)
