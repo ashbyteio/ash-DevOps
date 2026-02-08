@@ -7,3 +7,5 @@
 > It will have an SSL certificate for secure access
 > Bonus: It will have a visitor counter
 ```
+
+## On local setup: 
