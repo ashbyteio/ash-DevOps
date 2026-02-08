@@ -168,8 +168,7 @@ sudo certbot --nginx -d ashbyteio.xyz
 6. Update Security group to allow HTTPS traffic on Port 443 from 0.0.0.0/0
 7. Verify secure site access: https://ashbyteio.xyz
 
-![Nginx with SSL:](Project1-ash-portfolio/ash-web/images/using_nginx_with_ssl.jpg)
-
+![Nginx with SSL](https://raw.githubusercontent.com/ashbyteio/ash-DevOps/main/Project1-ash-portfolio/ash-web/images/using_nginx_with_ssl.jpg)
 
 
 
