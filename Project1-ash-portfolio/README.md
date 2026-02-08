@@ -63,7 +63,8 @@ python3 app.py
 
 6. Access the site at `http:your-public-ip:8000`
 
-![Flask with :8000 port demo:](./ash-web/images/local_setup_test.jpg)
+
+![Flask on port :8000](./ash-web/images/using_flask_on_8000.jpg)
 
 #### Use Nginx as reverse proxy server (Production grade)
 
