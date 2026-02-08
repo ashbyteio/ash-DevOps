@@ -22,6 +22,8 @@ python app.py
 ```
 3. Access the site at `http://localhost:8000`
 
+![Local Access demo:](Project1-ash-portfolio/ash-web/images/local_setup_test.jpg)
+
 ## EC2 Deployment
 
 ### Prerequisites
@@ -61,6 +63,8 @@ python3 app.py
 
 6. Access the site at `http:your-public-ip:8000`
 
+![Flask with :8000 port demo:](Project1-ash-portfolio/ash-web/images/local_setup_test.jpg)
+
 #### Use Nginx as reverse proxy server (Production grade)
 
 1. Add nginx package details in requirements.txt
@@ -98,6 +102,7 @@ sudo systemctl start nginx
 ```
 5. Access the site at `http:your-public-ip`
 
+![Nginx without SSL:](Project1-ash-portfolio/ash-web/images/using_nginx_without_ssl.jpg)
 
 ### Security Group Configuration
 
@@ -162,6 +167,8 @@ sudo certbot --nginx -d ashbyteio.xyz
 5. Follow the prompts to enter the email (optional) and agree to terms.
 6. Update Security group to allow HTTPS traffic on Port 443 from 0.0.0.0/0
 7. Verify secure site access: https://ashbyteio.xyz
+
+![Nginx with SSL:](Project1-ash-portfolio/ash-web/images/using_nginx_with_ssl.jpg)
 
 
 
