@@ -2,10 +2,9 @@
 
 ## Basic specifications:
 ```
-> A domain redirects to a webpage about author
+> A domain which directs to a webpage about author
 > It will run on Flask/Nginx
 > It will have an SSL certificate for secure connection
-> Bonus: It will have a visitor counter
 ```
 
 ## To test on local setup: 
@@ -169,5 +168,4 @@ sudo certbot --nginx -d ashbyteio.xyz
 6. Update Security group to allow HTTPS traffic on Port 443 from 0.0.0.0/0
 7. Verify secure site access: https://ashbyteio.xyz
 
-
-![Nginx with SSL:](./ash-web/images/using_nginx_with_ssl.jpg)
+![Nginx with SSL:](./ash-web/images/using_nginx_with_SSL.jpg)
